@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5em,0;
+    align-items:center ;
+}
+.header-left,.header-right{
+    display:flex ;
+    align-items:center ;
+    margin:0.5rem;
+}
+
+a >span{
+    margin:0 30px;
+    font-size: 1.3rem;
+    cursor:pointer;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a>span:hover{
+    color:red;
+}
